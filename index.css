@@ -12,6 +12,8 @@ body {
 .clicked {
     color: #7f8c8d;
   }
+
+
   
 .form,
 .greetings{
@@ -19,7 +21,9 @@ body {
 }
 
 .showing{
-    display : block;
+    /* display : block; */
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes fadeIn {
